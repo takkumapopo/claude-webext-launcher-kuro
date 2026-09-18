@@ -33,7 +33,7 @@ func CheckAndUpdate() error {
 	currentVer := CurrentVersion
 
 	// Check latest release
-	url := "https://api.github.com/repos/lugia19/Claude-WebExtension-Launcher/releases/latest"
+	url := "https://api.github.com/repos/takkumapopo/claude-webext-launcher-kuro/releases/latest"
 	resp, err := http.Get(url)
 	if err != nil {
 		return fmt.Errorf("failed to check for updates: %v", err)

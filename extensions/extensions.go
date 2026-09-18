@@ -20,7 +20,7 @@ type Extension struct {
 }
 
 var extensions = []Extension{
-	{Owner: "lugia19", Repo: "Claude-Usage-Extension", Folder: "usage-tracker"},
+	{Owner: "takkumapopo", Repo: "claude-usage-tracker-kuro", Folder: "usage-tracker"},
 	{Owner: "lugia19", Repo: "Claude-Toolbox", Folder: "userscript-toolbox"},
 }
 
